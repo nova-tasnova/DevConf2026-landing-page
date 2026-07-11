@@ -136,6 +136,72 @@ margin: 10px 10px;
 }
 
 /* Speaker-section ends */
+/* Hackathon Section */
+
+.hackathon{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+.hackathon-heading{
+    text-align: center;
+}
+
+
+.hackathon-heading h2{
+    font-size: 50px;
+    font-weight: 900;
+    color: #0D1B2A;
+    margin-bottom: 20px;
+}
+
+
+.hackathon-heading p{
+    color: #575757;
+    font-size: 20px;
+    max-width: 700px;
+    margin: auto;
+}
+
+
+.hackathon-card-container{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    margin-top: 50px;
+
+}
+
+
+.hackathon-card{
+
+    border: 1px solid #E5E7EB;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+}
+
+
+.hackathon-card h3{
+
+    font-size: 30px;
+    color:#2563EB;
+    margin-bottom: 15px;
+
+}
+
+
+.hackathon-card p{
+
+    color:#575757;
+    font-size:16px;
+    line-height:1.5;
+
+}
+
 /* pricing content starts */
 .pricing{
     text-align: center;
