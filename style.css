@@ -192,3 +192,46 @@ margin: 10px 10px;
     color:white;
     background-color: #0D1B2A;
 }
+
+footer{
+    background-color: #0D1B2A;
+    padding: 40px 0 20px;
+    color: white;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img{
+    width: 150px;
+}
+
+.social-icons{
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a{
+    color: white;
+    font-size: 25px;
+}
+
+.social-icons a:hover{
+    color: #2563EB;
+}
+
+.divider{
+    height: 1px;
+    background-color: #475569;
+    margin: 30px auto 20px;
+    max-width: 1200px;
+}
+
+.copyright{
+    text-align: center;
+    color: #CBD5E1;
+    font-size: 14px;
+}
