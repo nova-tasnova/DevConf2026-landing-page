@@ -1,0 +1,35 @@
+.container{
+    max-width: 1200px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.common-btn{
+    background-color: #1D4ED8;
+    color: white;
+    border-radius: 10px;
+    padding: 12px 30px;
+    /* margin: auto; */
+    border: none;
+
+}
+
+
+/* navbar sections */
+
+.menu-position{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap:40px;
+}
+
+.box{
+    color:#575757;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
