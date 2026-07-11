@@ -73,3 +73,55 @@
   gap: 50px;
   font-size: 22px;
 }
+
+/* speaker-section */
+
+.speaker .content {
+  text-align: center;
+}
+
+.speaker-heading h2 {
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  margin: 50px auto 40px;
+}
+
+.speaker .images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.image-box {
+  border-radius: 15px;
+  max-width: 100%;
+  text-align: left;
+  border: 1px solid #e5e7eb;
+}
+
+.image-box img {
+  width: 100%;
+  display: block;
+}
+
+.image-box .paragraph1 {
+  color: #2563eb;
+  font-size: 15px;
+
+  margin: 10px 10px;
+  font-weight: 700;
+}
+.image-box h4 {
+  color: #0d1b2a;
+  font-size: 20px;
+
+  margin: 10px 10px;
+  font-weight: bold;
+}
+
+.image-box .paragraph2 {
+  color: #575757;
+  font-size: 14px;
+margin: 10px 10px;
+}
